@@ -49,7 +49,7 @@ class cetakInfoProduk
     public function cetak(produk $produk)
     {
         $str = "{$produk->judul} | {$produk->getLabel()} (Rp{$produk->harga})";
-        return $str;
+        return $str;asdfafa
     }
 }
 
